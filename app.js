@@ -1,19 +1,3 @@
-angular.module('myapp', [])
-
-angular.module('myapp')
-.controller('GithubCtrl', function (GithubSvc, $scope) {
-  GithubSvc.fetchUsers()
-  .then(function (users) {
-    $scope.users = users
-  })
-})
-
-angular.module('myapp')
-.service('GithubSvc', function ($http) {
-  this.fetchUsers = function () {
-    return $http.get('https://api.github.com/users')
-    .then(function (response) {
-      return response.data
-    })
-  }
-})
+angular.module("myapp",[]);
+angular.module("myapp").controller("GithubCtrl",["GithubSvc","$scope",function(t,e){t.fetchUsers().then(function(t){e.users=t})}]);
+angular.module("myapp").service("GithubSvc",["$http",function(t){this.fetchUsers=function(){return t.get("https://api.github.com/users").then(function(t){return t.data})}}]);
