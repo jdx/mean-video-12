@@ -1,0 +1,27 @@
+{
+  "name": "mean-video-4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dickeyxxx/mean-video-4.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dickeyxxx/mean-video-4/issues"
+  },
+  "homepage": "https://github.com/dickeyxxx/mean-video-4",
+  "devDependencies": {
+    "chai": "^1.9.2",
+    "karma": "^0.12.24",
+    "karma-chai": "^0.1.0",
+    "karma-chrome-launcher": "^0.1.5",
+    "karma-mocha": "^0.1.9",
+    "mocha": "^1.21.4"
+  }
+}
