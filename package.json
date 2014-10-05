@@ -23,5 +23,9 @@
     "karma-chrome-launcher": "^0.1.5",
     "karma-mocha": "^0.1.9",
     "mocha": "^1.21.4"
+  },
+  "dependencies": {
+    "gulp": "^3.8.8",
+    "gulp-concat": "^2.4.1"
   }
 }
